@@ -1,0 +1,33 @@
+/* If the temperature is greater than 90F/32C the color of the converted temperature should be red.
+   If the temperature is less than 32F/0C the color of the converted temperature should be blue.
+   For any other temperature, the color should be green. */
+
+
+/* This class is the default, but won't show if the temperature conditions in js work correctly */
+/*----------------------------------------------*/
+.textcolor {
+	color: gray;
+}
+/*----------------------------------------------*/
+
+
+/* These classes will be injected using outputColor function in the js doc */
+/*----------------------------------------------*/
+.hotcolor {
+	color: red;
+	background-color: #ff9999;
+	font-weight: bold;
+}
+
+.mediumcolor {
+	color: green;
+	background-color: #99ffbb;
+	font-weight: bold;
+}
+
+.coldcolor {
+	color: blue;
+	background-color: #b3b3ff;
+	font-weight: bold;
+}
+/*----------------------------------------------*/

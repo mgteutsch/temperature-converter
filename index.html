@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Temperature Converter</title>
+	<link rel="stylesheet" type="text/css" href="converter.css">
+</head>
+<body>
+
+<h1>Temperature Converter</h1>
+<hr/>
+<br/>
+	Enter Temperature You'd Like Converted:
+	<input type="number" name="Temperature" placeholder="Numbers Only" id='input'>
+	<br/>
+	<br/>
+	Convert to:
+	<input type="radio" name="Degrees Measurement" value="Fahrenheit" id='fahrenheit'> Fahrenheit
+	<input type="radio" name="Degrees Measurement" value="Celsius" id='celsius' checked> Celsius
+	<br/>
+	<br/>
+	<input type="submit" name="Submit Temperature" value="Submit" onClick='conversion()'>
+	<input type="reset" name="Clear Values" value="Clear" onClick='clear("input")'>
+	<br/>
+	<br/>
+	Your Temperature Converts to:
+	<input type="number" name="Conversion" id='output' class="textcolor" disabled>
+
+
+
+<script src="converter.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+</html>
